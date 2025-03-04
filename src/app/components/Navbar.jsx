@@ -14,6 +14,9 @@ const Navbar = () => {
         <li className="cursor-pointer">
           <Link href="/about">About</Link>
         </li>
+        <li className="cursor-pointer">
+          <Link href="/contact">Contact</Link>
+        </li>
       </ul>
     </nav>
   );
