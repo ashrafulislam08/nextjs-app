@@ -4,6 +4,7 @@ import React from "react";
 const AboutPage = () => {
   return (
     <div>
+      <h2 className="text-4xl text-center mb-3">About Page</h2>
       <section className="flex items-center gap-2">
         <div className="w-1/2 h-auto border-2 p-2 flex items-center gap-2">
           <img
