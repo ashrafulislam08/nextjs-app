@@ -110,9 +110,10 @@ const ServicesPage = () => {
   ];
   return (
     <div className="font-bold text-xl w-full container mx-auto ">
+      <h2 className="text-center text-2xl mb-2">Companies</h2>
       <div className="grid grid-cols-3 gap-3">
         {companies.map((company) => (
-          <div className="border-2 px-2 py-2">
+          <div key={company.id} className="border-2 px-2 py-2">
             <h2>{company.company_name}</h2>
             <p className="text-sm font-normal">{company.description}</p>
             <Link href={`/services/${company.id}`}>
