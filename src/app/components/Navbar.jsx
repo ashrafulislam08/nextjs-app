@@ -17,6 +17,12 @@ const Navbar = () => {
         <li className="cursor-pointer">
           <Link href="/contact">Contact</Link>
         </li>
+        <li className="cursor-pointer">
+          <Link href="/posts">Posts</Link>
+        </li>
+        <li className="cursor-pointer">
+          <Link href="/meals">Meals</Link>
+        </li>
       </ul>
     </nav>
   );
